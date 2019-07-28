@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar';
+import Sidebar from './Sidebar';
+import Navigation from './Navigation';
 
 export default class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar />
+        <Sidebar />
+        <Navigation />
       </React.Fragment>
     );
   }

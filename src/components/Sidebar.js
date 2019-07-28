@@ -7,8 +7,8 @@ import {
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 
-import '../Navbar.css';
-export default class Navbar extends Component {
+import '../Sidebar.css';
+export default class SideBar extends Component {
   render() {
     return (
       <div className="navbar">
