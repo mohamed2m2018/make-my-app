@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Sidebar from './Sidebar';
 import Navigation from './Navigation';
+import Header from './Header';
 
 export default class Home extends Component {
   state = {
@@ -15,6 +16,7 @@ export default class Home extends Component {
       <React.Fragment>
         <Sidebar onMenuClicked={openNavigation} />
         <Navigation navState={navState} />
+        <Header/>
       </React.Fragment>
     );
   }

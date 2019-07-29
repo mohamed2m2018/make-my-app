@@ -1,5 +1,4 @@
-.navigation-before-click {
-    /* margin-left: 8rem; */
+.navigation-after-click {
     position: fixed;
     left: 8rem;
     width: 40rem;

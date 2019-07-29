@@ -7,7 +7,7 @@ export default class Navigation extends Component {
   render() {
     const {navState}=this.props;
     return (
-      <nav className={navState?"navigation":"navigation-before-click"}>
+      <nav className={navState?"navigation-after-click":"navigation"}>
         <div className="navigation-header">
           <h1 className="navigation-heading">Make My App</h1>
           <form className="navigation-search">
