@@ -1,4 +1,117 @@
-.navigation{
-    margin-left: 8rem;
-    position: fixed;
+.navigation {
+  margin-left: 8rem;
+  position: fixed;
+  width: 40rem;
+  height: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(34, 32, 41, 0.8),
+      rgba(34, 32, 41, 0.6)
+    ),
+    url(./images/charles-6OF-Ly-5oJY-unsplash.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  color: #dea886;
+  text-align: center;
+}
+.navigation-search-input {
+  width: 30rem;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.6rem;
+  color: #dea886;
+  letter-spacing: 0.1rem;
+  outline: none;
+  border: 0.2rem solid #555;
+  border-radius: 10rem;
+  transition: background-color 0.3s;
+}
+
+.navigation-search-input:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navigation-search-button {
+  border: none;
+  background-color: transparent;
+  color: #dea886;
+  font-size: 1.7rem;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.navigation-search {
+  position: relative;
+}
+
+.navigation-search-button:focus {
+  outline: none;
+}
+.navigation-list {
+  list-style: none;
+  padding: 0;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-link {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color .5s;
+}
+.navigation-item {
+  position: relative;
+}
+.navigation-link::before {
+  width: 0rem;
+  height: 0.1rem;
+  content: '';
+  background-color: #dea886;
+  position: absolute;
+  top: 1rem;
+  left: -4rem;
+  transition: width .5s cubic-bezier(1,0,0,1);
+}
+.navigation-link::after {
+  width: 0rem;
+  height: 0.1rem;
+  content: '';
+  background-color: #dea886;
+  position: absolute;
+  top: 1rem;
+  right: -4rem;
+  transition: width .5s cubic-bezier(1,0,0,1);
+
+}
+.navigation-link:hover {
+  color: #dea886;
+}
+
+.copyright{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.navigation-link:hover::before,.navigation-link:hover::after {
+  width: 3rem;
 }

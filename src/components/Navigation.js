@@ -15,8 +15,8 @@ export default class Navigation extends Component {
               className="navigation-search-input"
               placeholder="Search"
             />
-            <button className="navigation-search-button">
-              <FontAwesomeIcon icon={faSearch} />
+            <button className="navigation-search-button" >
+              <FontAwesomeIcon  icon={faSearch} />
             </button>
           </form>
         </div>
@@ -37,7 +37,7 @@ export default class Navigation extends Component {
             <a href="google.com" className="navigation-link">
               Register
             </a>
-          </li>
+        </li>
           <li className="navigation-item">
             {' '}
             <a href="google.com" className="navigation-link">
