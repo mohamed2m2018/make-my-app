@@ -7,13 +7,20 @@ import {
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 
+
 import '../Sidebar.css';
 export default class SideBar extends Component {
+
+
+
   render() {
+
+    const {onMenuClicked}=this.props;
+  
     return (
       <div className="navbar">
         <div className="side-bar">
-          <div className="menu-icon">
+          <div className="menu-icon" onClick={onMenuClicked}>
             <div className="line line1" />
             <div className="line line2" />
             <div className="line line3" />

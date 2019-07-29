@@ -5,8 +5,9 @@ import '../Navigation.css';
 
 export default class Navigation extends Component {
   render() {
+    const {navState}=this.props;
     return (
-      <nav className="navigation">
+      <nav className={navState?"navigation":"navigation-before-click"}>
         <div className="navigation-header">
           <h1 className="navigation-heading">Make My App</h1>
           <form className="navigation-search">

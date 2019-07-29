@@ -1,6 +1,26 @@
+.navigation-before-click {
+    /* margin-left: 8rem; */
+    position: fixed;
+    left: 8rem;
+    width: 40rem;
+    height: 100%;
+    background: linear-gradient(
+        to top,
+        rgba(34, 32, 41, 0.8),
+        rgba(34, 32, 41, 0.6)
+      ),
+      url(./images/charles-6OF-Ly-5oJY-unsplash.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: left 0.8s cubic-bezier(1,0,0,1);
+}
 .navigation {
-  margin-left: 8rem;
+  /* margin-left: 8rem; */
   position: fixed;
+  left: -32rem;
   width: 40rem;
   height: 100%;
   background: linear-gradient(
@@ -14,6 +34,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  transition: left 0.8s cubic-bezier(1,0,0,1);
 }
 
 .navigation-heading {
