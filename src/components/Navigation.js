@@ -1,9 +1,20 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import {NavLink} from 'react-router-dom';
 import '../Navigation.css';
-
 export default class Navigation extends Component {
+  
+
+  scroll=()=>{
+
+    const {passRef}=this.props;
+
+    
+    
+
+  }
+
   render() {
     const {navState}=this.props;
     return (
@@ -35,9 +46,9 @@ export default class Navigation extends Component {
           </li>
           <li className="navigation-item">
             {' '}
-            <a href="google.com" className="navigation-link">
+            <NavLink to="/" className="navigation-link">
               Register
-            </a>
+            </NavLink>
         </li>
           <li className="navigation-item">
             {' '}
@@ -53,7 +64,7 @@ export default class Navigation extends Component {
           </li>
           <li className="navigation-item">
             {' '}
-            <a href="google.com" className="navigation-link">
+          <a onClick={this.scroll} className="navigation-link">
               About us
             </a>
           </li>

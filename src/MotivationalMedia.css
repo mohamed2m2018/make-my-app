@@ -1,0 +1,29 @@
+.motivational-media {
+  margin-left: 8rem;
+}
+
+.motivational-media-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.motivational-media-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 4rem;
+  font-weight: 300;
+  color:#b85d1c;
+  text-transform: uppercase;
+}
+.media {
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+}
+.video {
+  width: 90vw;
+  height: 60vh;
+  
+
+}
+
