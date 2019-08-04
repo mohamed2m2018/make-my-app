@@ -4,8 +4,9 @@ import reacNativeLogo from '../images/react-native.jpg';
 
 export default class AboutUs extends Component {
   render() {
+    const {whyUsRef}=this.props;
     return (
-      <section className="about-us">
+      <section className="about-us" ref={whyUsRef}>
         <div className="about-us-content">
           <h1 className="about-us-heading">Why Us?</h1>
           <div className="underline">

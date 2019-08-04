@@ -4,8 +4,9 @@ import logo from '../images/logo.png';
 
 export default class Header extends Component {
   render() {
+    const {homeRef}=this.props;
     return (
-      <header className="header">
+      <header className="header" ref={homeRef}>
         <div className="brand">
           <div className="logo">
             <img src={logo} width="30" />

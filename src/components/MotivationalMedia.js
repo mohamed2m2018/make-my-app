@@ -11,7 +11,7 @@ export default class MotivationalMedia extends Component {
     return (
       <section className="motivational-media">
         <div className="motivational-media-content">
-          <h1 className="motivational-media-heading">Be the next Steve Jobs</h1>
+          <h1 className="motivational-media-heading">Make the next crazy thing</h1>
           <div className='small-underline'/>
           <div className='big-underline'/>
           <div className="media">

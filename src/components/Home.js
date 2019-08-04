@@ -9,7 +9,8 @@ export default class Home extends Component {
 
   constructor(props) {
     super(props);
-    this.aboutUsRef = React.createRef();
+    this.whyUsRef = React.createRef();
+    this.homeRef=React.createRef();
   }
 
 
@@ -18,15 +19,16 @@ export default class Home extends Component {
   };
   render() {
     const { navState } = this.state;
+    const {whyUsRef,homeRef}=this;
     const openNavigation = () => {
       this.setState({ navState: !navState });
     };
     return (
       <React.Fragment>
         <Sidebar onMenuClicked={openNavigation} />
-        <Navigation navState={navState} passRef={this.aboutUsRef.current} />
-        <Header />
-        <AboutUs ref={this.aboutUsRef} />
+        <Navigation navState={navState} refs={{whyUsRef,homeRef}} />
+        <Header homeRef={homeRef} />
+        <AboutUs whyUsRef={whyUsRef} />
         <MotivationalMedia/>
       </React.Fragment>
     );
