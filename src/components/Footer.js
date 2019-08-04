@@ -81,7 +81,7 @@ export default class Footer extends Component {
           <div className="text-right">
             <p>
               We serve you with
-              <FontAwesomeIcon icon={faHeart} />
+              <FontAwesomeIcon className='icon' icon={faHeart} />
               by <span>Make-My-App</span>
             </p>
           </div>

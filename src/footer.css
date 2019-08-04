@@ -45,3 +45,36 @@
     color: #444;
     outline: none;
 }
+
+.footer-btn{
+    padding:1rem;
+    background-color: #b85d1c;
+    color:#ddd;
+    border:none;
+}
+
+.creator-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 0 4rem;
+}
+.copyright-text{
+    font-size: 1.5rem;
+    color: #aaa;
+
+}
+
+.text-right{
+    font-size: 1.4rem;
+    color:#bbb;
+}
+.icon{
+    font-size: 2rem;
+    margin:.5rem;
+    color:tomato
+}
+.text-right span{
+    color:gold;
+}
