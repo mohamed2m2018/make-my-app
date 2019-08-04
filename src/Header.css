@@ -76,3 +76,17 @@
         opacity: 1;
     }
 }
+
+@media(max-width:1000px){
+    .banner-heading{
+        color:red;
+    }
+}
+@media(max-width:900px){
+    .banner{
+        text-align: center;
+    }
+    .banner-heading{
+        font-size:4.7rem;
+    }
+}

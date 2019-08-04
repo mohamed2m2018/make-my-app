@@ -61,4 +61,19 @@
 .image{
     border-radius: 50%
 }
-
+@media(max-width:900px){
+  .sub-heading{
+    text-align: center;
+  }
+}
+@media(max-width:700px){
+  .image{
+    width:10rem;
+  }
+.about-us-button{
+  width: 2rem;
+}
+.about-us-content{
+  padding:1rem;
+}
+}

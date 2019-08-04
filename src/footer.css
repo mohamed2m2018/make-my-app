@@ -78,3 +78,24 @@
 .text-right span{
     color:gold;
 }
+@media(max-width:1000px){
+    .main-part{
+        flex-direction: column;
+        
+    }
+    .footer-list{
+        display: flex;
+    }
+    .footer-list-item{
+        margin-right: 3rem;
+    }
+}
+
+@media(max-width:700px){
+.footer-list{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between
+}
+}
+  

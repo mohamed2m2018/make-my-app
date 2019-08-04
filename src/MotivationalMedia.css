@@ -24,6 +24,10 @@
   width: 90vw;
   height: 60vh;
   
-
 }
 
+@media(max-width:900px){
+  .motivational-media-heading{
+    text-align: center;
+  }
+}
