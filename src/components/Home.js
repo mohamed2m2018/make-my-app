@@ -4,6 +4,7 @@ import Navigation from './Navigation';
 import Header from './Header';
 import AboutUs from './AboutUs';
 import MotivationalMedia from './MotivationalMedia';
+import Footer from './Footer';
 
 export default class Home extends Component {
 
@@ -30,6 +31,7 @@ export default class Home extends Component {
         <Header homeRef={homeRef} />
         <AboutUs whyUsRef={whyUsRef} />
         <MotivationalMedia/>
+        <Footer/>
       </React.Fragment>
     );
   }
